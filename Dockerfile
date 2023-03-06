@@ -1,3 +1,3 @@
-FROM ubuntu:latest
-
-WORKDIR /me
+ARG TAG
+FROM ubuntu:${TAG}
+WORKDIR /ubuntu
